@@ -1,8 +1,15 @@
 #include<stdio.h>
+#include<stdlib.h>
 
-int main() {
+int main(int argc, char *argv[]) {
   int rows=10;
   int cols=10;
+  //
+  if (argc == 2) {
+    rows=atoi(argv[1]);
+    cols=atoi(argv[1]);
+  }
+  //
   int r;
   int c;
   for (r=1;r<rows;r=r+1) {
