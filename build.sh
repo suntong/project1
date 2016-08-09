@@ -9,6 +9,6 @@ if [ ! -d $projdir/bin ]; then
 fi
 
 if [ -f box ]; then
-  mv box $projdir
+  mv box $projdir/bin
 fi
 
