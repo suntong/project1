@@ -2,12 +2,13 @@
 
 cc box.c -o box
 
-if [ ! -d bin ]; then
-  mkdir bin
+projdir=/builds/project1
+
+if [ ! -d $projdir/bin ]; then
+  mkdir -p $projdir/bin
 fi
 
 if [ -f box ]; then
-  #mv box bin
-  mv box /builds/project1
+  mv box $projdir
 fi
 
