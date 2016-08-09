@@ -7,6 +7,7 @@ if [ ! -d bin ]; then
 fi
 
 if [ -f box ]; then
-  mv box bin
+  #mv box bin
+  mv box /builds/project1
 fi
 
