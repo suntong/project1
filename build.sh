@@ -2,7 +2,7 @@
 
 cc box.c -i box
 
-if [ !-d bin ]; then
+if [ ! -d bin ]; then
   mkdir bin
 fi
 
