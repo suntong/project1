@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cc box.c -i box
+cc box.c -o box
 
 if [ ! -d bin ]; then
   mkdir bin
