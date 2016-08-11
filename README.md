@@ -1,7 +1,6 @@
 # Project1
 
-box.c
-Create a box with an x...
+Code repo...
 
-Moves compiled file to /builds/Project1
+Moves compiled files to /builds/Project1
 
