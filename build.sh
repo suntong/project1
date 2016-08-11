@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cc box.c -o box
+cc c/box.c -o c/box
 
 projdir=/builds/project1
 
@@ -8,7 +8,7 @@ if [ ! -d $projdir/bin ]; then
   mkdir -p $projdir/bin
 fi
 
-if [ -f box ]; then
-  mv box $projdir/bin
+if [ -f c/box ]; then
+  mv c/box $projdir/bin
 fi
 
