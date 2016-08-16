@@ -10,10 +10,6 @@
         "name": "0.1",
     },
 
-    /* Configure the files you would like to upload to Bintray and their upload path.
-    You can define one or more groups of patterns.
-    Each group contains three patterns:
-
     "files":
         [
         {"includePattern": "target/(.*)", "excludePattern": "target/.*.zip$", "uploadPattern": "/$1"}
