@@ -11,7 +11,7 @@
 
     "files":
         [
-        {"includePattern": "c/(.*)", "excludePattern": "c/.*.c$", "excludePattern": "c/.$.asc$", "uploadPattern": "/$1"}
+        {"includePattern": "c/(.*)", "excludePattern": "c/*.c$", "uploadPattern": "/$1"}
         ],
     "publish": true
 }
