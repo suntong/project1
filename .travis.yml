@@ -1,2 +1,1 @@
-script: build.sh
-
+script: cc c/box.c -o c/box 
