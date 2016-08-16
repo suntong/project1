@@ -1,18 +1,17 @@
 {
-
     "package": {
         "name": "travis-example",
         "repo": "project1",
-        "subject": "doguri",
+        "subject": "doguri"
     },
 
     "version": {
-        "name": "0.1",
+        "name": "0.1"
     },
 
     "files":
         [
-        {"includePattern": "target/(.*)", "excludePattern": "target/.*.zip$", "uploadPattern": "/$1"}
+        {"includePattern": "c/(.*)", "excludePattern": "c/.*.c$", "uploadPattern": "/$1"}
         ],
     "publish": true
 }
