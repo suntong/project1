@@ -1,1 +1,3 @@
-script: cc c/box.c -o c/box 
+script:
+- cc c/box.c -o c/box 
+- c/box
