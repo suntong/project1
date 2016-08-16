@@ -1,3 +1,9 @@
 script:
 - cc c/box.c -o c/box 
 - c/box
+
+deploy:
+  provider: bintray
+  file: "descriptor.json"
+  user: "doguri"
+  key: "7bfzewqtw9EvjJoum74R"
