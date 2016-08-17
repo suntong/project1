@@ -3,6 +3,8 @@ script:
 - cc c/box.c -o build/box 
 - build/box
 
+language: bash
+
 deploy:
   provider: bintray
   file: "descriptor.json"
