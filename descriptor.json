@@ -11,7 +11,7 @@
 
     "files":
         [
-        {"includePattern": "build/(.*)", "excludePattern": "build/.*.c$", "uploadPattern": "/$1"}
+        {"includePattern": "build/(.*)", "excludePattern": "build/.*.asc$", "uploadPattern": "/$1"}
         ],
     "publish": true
 }
