@@ -1,6 +1,6 @@
 script:
-- cc c/box.c -o c/box 
-- c/box
+- cc c/box.c -o build/box 
+- build/box
 
 deploy:
   provider: bintray
