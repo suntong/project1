@@ -1,4 +1,5 @@
 script:
+- mkdir build
 - cc c/box.c -o build/box 
 - build/box
 
